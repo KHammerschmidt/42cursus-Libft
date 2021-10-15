@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/26 18:16:20 by khammers          #+#    #+#             */
-/*   Updated: 2021/09/20 12:35:51 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:33:27 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@
 ** (3) ft_cpy_trm: the function only allocates enough memory space to hold a
 ** copy of the trimmed s1 version, leaving space for the null terminator.
 */
-int	ft_get_trm_start_stop(const char *s1, const char *set, int counter)
+static int	ft_get_trm_start_stop(const char *s1, const char *set, int counter)
 {
 	size_t	j;
 
@@ -47,7 +47,7 @@ int	ft_get_trm_start_stop(const char *s1, const char *set, int counter)
 	return (0);
 }
 
-char	*ft_cpy_trm(char const *s1, int start_trm, int stop_trm)
+static char	*ft_cpy_trm(char const *s1, int start_trm, int stop_trm)
 {
 	char	*cpys;
 	int		i;

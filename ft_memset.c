@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/16 11:26:18 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 14:40:29 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:30:53 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: void *ft_memset(void *b, int c, size_t len);
-**
 ** The function ft_memset() writes (len) bytes of value (c) to the memory block
 ** pointed to by *b. The value of c is passed as an int, but ft_memset fills the
 ** block of memory using the unsigned char (8- bit unsigned integer ranging from

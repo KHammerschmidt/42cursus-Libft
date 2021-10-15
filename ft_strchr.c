@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/18 08:32:39 by khammers          #+#    #+#             */
-/*   Updated: 2021/09/20 11:58:01 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:31:52 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: char *strchr(const char *s, int c);
-**
 ** The function ft_strchr() locates the first occurence of c, the character to
 ** be searched in str (converted to an unsigned char) pointed to by the argument
 ** s. The termianting null character is considered to be part of the string;

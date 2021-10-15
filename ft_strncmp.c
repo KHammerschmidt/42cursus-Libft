@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/21 18:54:09 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/05 13:39:35 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:32:48 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: int	ft_strncmp(const char *s1, const char *s2, size_t n);
-**
 ** The function ft_strncmp() compares lexicographically the null-terminated
 ** strings s1 and s2 but not more than n characters. Characters that appear
 ** after null-terminator are not compared. The function returns an integer

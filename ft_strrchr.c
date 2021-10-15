@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/21 11:12:27 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 20:58:58 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:33:01 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-**	Prototype: char	*ft_strrchr(const char *s, int c);
-**
 ** The function ft_strrchr() locates the last occurence of c (converted to a
 ** char) in the string pointed to by s. The terminating null character is con-
 ** sidered to be part of the string, therefore if c is '\0', the function

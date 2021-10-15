@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/30 16:28:57 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 18:04:52 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:29:33 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Protoype: void	ft_lstiter(t_list *lst, void (*f)(void *)):
-**
 ** Iterates the list 'lst' and applies the function 'f' to the content of each
 ** element.
 **

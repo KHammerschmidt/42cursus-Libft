@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/16 15:39:11 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 14:40:12 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:29:11 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: void *ft_memcpy(void *dst, void *src, size_t n);
-**
 ** The function ft_memcpy() copies n bytes from memory area src to memory area
 ** dst. Both pointers are of type void. The function returns a pointer to
 ** destination (dst). The memory area of dst should be large enough

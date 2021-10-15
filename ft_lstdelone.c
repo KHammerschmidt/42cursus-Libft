@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/30 16:22:58 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 17:57:56 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:29:36 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: void	ft_lstdelone(t_list *lst, void (*del)(void *));
-**
 ** Takes as a parameter an element and frees the memory of the element's
 ** content using the function 'del' given as a parameter and free the element.
 ** The memory of 'next' must not be freed.

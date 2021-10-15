@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/30 16:16:47 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 18:06:11 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:29:30 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: t_list	*ft_lstlast(t_list *lst);
-**
 ** Returns the last element of the list.
 **
 ** (1) if the list is empty return NULL;

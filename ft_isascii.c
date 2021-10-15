@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/18 15:42:46 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 15:11:58 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:30:10 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: int	ft_isascii(int c);
-**
 ** The function ft_isascii() checks if the int parameter is represented by an
 ** ASCII value to then return 1, otherwise return 0.
 */

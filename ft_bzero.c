@@ -3,25 +3,22 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/16 12:32:13 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 15:11:09 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:30:24 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: void ft_bzero(void *s, size_t n);
-**
-** The function ft_bzero() writes n zeroed bytes (('\0') or 0) the the string s.
+** The function ft_bzero() writes n zeroed bytes ('\0' or 0) the the string s.
 ** If n is zero, ft_bzero() does nothing. It is used to set memory space to null
 ** values. The function has no return value.
 **
 ** While the number of bytes 'n' to be filled are not filled yet (i < n),
-** zeroed bytes (('\0') or 0) are written to the memory block of the typecasted
-** char pointer '(char *)s'. The function stops when n bytes are filled.
+** zeroed bytes are written to the memory block of typecasted string 's'.
 */
 void	ft_bzero(void *s, size_t n)
 {

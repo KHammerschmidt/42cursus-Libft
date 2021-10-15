@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/23 11:50:00 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 15:10:50 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:30:20 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: void	*ft_calloc(size_t count, size_t size);
-**
 ** The function ft_calloc() allocates enough space for 'count' objects that are
 ** 'size' bytes of memory each and returns a pointer to the allocated memory.
 ** The allocated memory is filled with bytes of value zero.

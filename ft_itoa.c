@@ -3,23 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/13 12:58:12 by katharinaha       #+#    #+#             */
-/*   Updated: 2021/08/05 13:32:31 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:30:00 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: static int	get_size(int n, int sign);
-**
 ** (1) two corner cases of int_min and n=-10 are handled and their size
 ** determined;
 ** (2) otherwise while (n/10) is larger than 10, int 'size' is incremented.
 ** (3) Depending on 'sign', either 1 or 2 extra bytes are allocated (for sign
-** and or null-terminator)
+** and/or null-terminator)
 ** (4) the function returns the size (length) of the integer.
 */
 static int	get_size(int long n, int sign)
@@ -40,8 +38,6 @@ static int	get_size(int long n, int sign)
 }
 
 /*
-** Prototype: static char	*copy_digits(long int b, int sign, int size);
-**
 ** (1) memory space is allocated for the string (as size is known)
 ** (2) corner case of n=0 is handled,
 ** (3) if number is negative, the first position of the string is set to '-',
@@ -59,7 +55,7 @@ static char	*copy_digits(long int b, int sign, int size)
 	i = 0;
 	str = malloc(sizeof(char) * (size + 1));
 	if (str == NULL)
-		return (0);
+		return (NULL);
 	if (b == 0)
 		str[0] = 0 + '0';
 	if (sign == -1)
@@ -77,7 +73,6 @@ static char	*copy_digits(long int b, int sign, int size)
 }
 
 /*
-** Prototype: char *ft_itoa(int n);
 ** The ft_itoa() function allocates (with malloc(3)) and returns a string
 ** representing the integer received as an argument. The function returns the
 ** representing integer or NULL if the allocation fails, negative numbers must

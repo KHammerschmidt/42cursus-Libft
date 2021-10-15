@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/15 09:23:56 by katharinaha       #+#    #+#             */
-/*   Updated: 2021/08/04 09:13:08 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:31:46 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: char	**ft_split(char const *s, char c);
-**
 ** Allocates with malloc and returns an array of strings obtained by splitting
 ** ‘s’ using the character ‘c’ as delimiter. The array must be ended by a NULL
 ** pointer. The return value is the array of new strings resulting from the

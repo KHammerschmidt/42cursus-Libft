@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putstr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/23 16:01:54 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 14:40:55 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:31:28 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: void	ft_putstr_fd(char const *s, int fd);
-**
 ** The function ft_putstr_fd() outputs the string (s) to the given file
 ** descriptor by callig the function ft_putchar_fd().
 **

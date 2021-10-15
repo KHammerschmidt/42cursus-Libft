@@ -3,18 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/17 14:40:29 by katharinaha       #+#    #+#             */
-/*   Updated: 2021/08/05 13:35:17 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:32:41 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Prototype: char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
-**
 ** The function ft_strmapi() applies the function f to each character of the
 ** string s to create a new string (with malloc) resulting from successive
 ** application of f. Returns 0 if allocation failed.

@@ -3,21 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: khammers <khammers@student.42.fr>          +#+  +:+       +#+        */
+/*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/30 16:20:46 by khammers          #+#    #+#             */
-/*   Updated: 2021/08/03 18:16:37 by khammers         ###   ########.fr       */
+/*   Updated: 2021/10/15 14:29:50 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-** Protoype: void	ft_lstadd_back(t_list **lst, t_list *new):
-**
-** Adds the element 'new' at the end of the list. **lst: address of a pointer
-** to the first link of a list. *new: the address of a pointer to the first
-** element to be added to the list.
+** Adds the element 'new' at the end of the list. 
+** **lst: address of a pointer to the first link of a list. 
+** *new: the address of a pointer to the first element to be added to the list.
 **
 ** (1) if any parameter is empty return nothing.
 ** (2) if the element '*lst' is empty, *lst points to the 'new' element,
