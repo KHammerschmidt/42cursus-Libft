@@ -6,20 +6,15 @@
 /*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/18 08:32:39 by khammers          #+#    #+#             */
-/*   Updated: 2021/10/15 16:53:44 by katharinaha      ###   ########.fr       */
+/*   Updated: 2022/03/07 17:48:57 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-** The function ft_strchr() locates the first occurence of c, the character to
-** be searched in str (converted to an unsigned char) pointed to by the argument
-** s. The termianting null character is considered to be part of the string;
-** therefore if c is '\0', the function locates the terminating '\0'. The
-** function returns a pointer to the (first occurence) located character, or
-** NULL if the character does not appear in the string.
-*/
+/* Locates the first occurence of c, the character to be searched in s. Returns 
+a pointer to the (first occurence) located character, or NULL if the character 
+does not appear in the string. */
 char	*ft_strchr(const char *s, int c)
 {
 	int	i;

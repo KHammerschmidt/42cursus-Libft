@@ -6,16 +6,14 @@
 /*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/18 15:12:43 by khammers          #+#    #+#             */
-/*   Updated: 2021/10/15 14:30:12 by katharinaha      ###   ########.fr       */
+/*   Updated: 2022/03/07 17:34:50 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-** The function ft_isalpha() checks if the int parameter is a upper- or lower-
-** case letter, otherwise the function returns 0.
-*/
+/* Checks if the int parameter is a upper- or lowercase letter, otherwise 
+returns 0. */
 int	ft_isalpha(int c)
 {
 	if (((c >= 'A') && (c <= 'Z')) || ((c >= 'a') && (c <= 'z')))

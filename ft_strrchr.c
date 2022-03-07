@@ -6,19 +6,14 @@
 /*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/21 11:12:27 by khammers          #+#    #+#             */
-/*   Updated: 2021/10/15 14:33:01 by katharinaha      ###   ########.fr       */
+/*   Updated: 2022/03/07 17:56:33 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-** The function ft_strrchr() locates the last occurence of c (converted to a
-** char) in the string pointed to by s. The terminating null character is con-
-** sidered to be part of the string, therefore if c is '\0', the function
-** locates the terminating '\0'. The function returns a pointer to the located
-** character or NULL if the character does not appear in the string.
-*/
+/* Locates the last occurence of c in the string pointed to by s. Returns a
+pointer to the located character or NULL if it does not appear in s. */
 char	*ft_strrchr(const char *s, int c)
 {
 	size_t	i;

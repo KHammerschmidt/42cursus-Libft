@@ -6,17 +6,14 @@
 /*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/17 14:40:29 by katharinaha       #+#    #+#             */
-/*   Updated: 2021/10/15 14:32:41 by katharinaha      ###   ########.fr       */
+/*   Updated: 2022/03/07 17:53:50 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-** The function ft_strmapi() applies the function f to each character of the
-** string s to create a new string (with malloc) resulting from successive
-** application of f. Returns 0 if allocation failed.
-*/
+/* Applies the function f to each character of the string s to create a new
+string, resulting from successive application of f. */
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;

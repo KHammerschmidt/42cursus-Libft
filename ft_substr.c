@@ -6,18 +6,14 @@
 /*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/23 16:29:43 by khammers          #+#    #+#             */
-/*   Updated: 2021/10/15 14:33:36 by katharinaha      ###   ########.fr       */
+/*   Updated: 2022/03/07 17:59:42 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-** Allocates (with malloc()) amd returns a substring from string s. The sub-
-** string begins at the index start and is of maximum size len.
-** s1: string from which to create the substring. Substring has a null
-** terminator added after the copying of len is done.
-*/
+/* Returns a substring from string s. The substring begins at start and is of
+maximum size len. */
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*substr;

@@ -6,17 +6,13 @@
 /*   By: katharinahammerschmidt <katharinahammer    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/06/23 13:44:17 by khammers          #+#    #+#             */
-/*   Updated: 2021/10/15 14:31:56 by katharinaha      ###   ########.fr       */
+/*   Updated: 2022/03/07 17:49:37 by katharinaha      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*
-** The strdup() function allocates sufficient memory for a copy of string s1,
-** does the copy and returns a pointer to it. If insufficient memory available
-** Null is returned.
-*/
+/* Returns a copy of string s1. */
 char	*ft_strdup(const char *s1)
 {
 	char	*cpy;

@@ -5,10 +5,11 @@ Writing these functions helped me to understand and specifically learn to use th
 
 Key learning points of this project were:
   - Passing on various types of input and typecasting void pointers
-  - Setting up a Makefile to compile my library
+  - Setting up a Makefile to compiling my library
   - Familiarise myself with linked lists
  
  Use:
- To compile the library use the command 'make', to compile bonus functions use 'make bonus'. 
+ To compile the library use the command 'make', 
+ to compile bonus functions use 'make bonus'. 
   
 
