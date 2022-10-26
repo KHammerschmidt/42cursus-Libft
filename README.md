@@ -5,11 +5,6 @@
 </h1>
 
 <p align="center">
-	Project Score [![khammers's 42 Libft Score](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131)](https://github.com/JaeSeoKim/badge42)
-</p>
-
-
-<p align="center">
 	<b><i>Development repo of my very own standard library</i></b><br>
 	Start date: 15/july/2021
 </p>
@@ -19,20 +14,17 @@
 	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
 </p>
 
-
-<!-- <img alt="42Heilbronn Score" src="[![khammers's 42 stats](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/stats?cursusId=21&coalitionId=159)](https://github.com/JaeSeoKim/badge42)"/> -->
-
 <h3 align="center">
-	<a href="#%EF%B8%8F-about the project">About</a>
+	<a href="#%EF%B8%8F-about">About</a>
 	<span> · </span>
-	<a href="#%EF%B8%8F-list of functions">List of functions</a>
+	<a href="#%EF%B8%8F-functions">Functions</a>
 	<span> · </span>
 	<a href="#-usage">Usage</a>
 </h3>
 
 ---
 
-## 💡 About the project
+## 💡 About
 > The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation. 
 The functions will have the same prototypes and implement the same behaviors as the originals. They must comply with the way they are defined in their man. The only difference will be their names. They will begin with the ’ft_’ prefix. 
 
@@ -45,7 +37,9 @@ Functions to manipulate memory and strings is very useful. But you will soon dis
   - Setting up a Makefile to compile my library
   - Familiarise myself with linked lists
 
-## List of functions
+Project Score [![khammers's 42 Libft Score](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131)](https://github.com/JaeSeoKim/badge42)
+
+## Functions
 
 ### **Libc functions**
 ##### Character type testing
