@@ -28,9 +28,10 @@
 > The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation. 
 </br>
 
-**Task**
+**Requirements**
 
 All functions must have the same prototypes and implement the same behaviours as the originals. They must comply with the way they are defined in their man. All functions shall begin with the 'ft_' prefix.
+
 </br>
 
 **Key learning points**
@@ -39,6 +40,7 @@ All functions must have the same prototypes and implement the same behaviours as
   - Setting up a Makefile to compile my library
   - Familiarise myself with linked lists
 
+</br>
 
 ## Functions
 
