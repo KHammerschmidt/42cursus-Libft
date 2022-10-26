@@ -4,6 +4,9 @@
 	🧰 libft
 </h1>
 
+Project Score [![khammers's 42 Libft Score](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131)](https://github.com/JaeSeoKim/badge42)
+
+
 <p align="center">
 	<b><i>Development repo of my very own standard library</i></b><br>
 	Start date: 15/july/2021
@@ -12,12 +15,8 @@
 <p align="center">
 	<img alt="Github code size in bytes" src="https://img.shields.io/github/languages/code-size/KHammerschmidt/Libft?color=light%20green&label=code%20size%20in%20bytes"/>
 	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
-	Project Score [![khammers's 42 Libft Score](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131)](https://github.com/JaeSeoKim/badge42)
 </p>
 
-<p align="center">
-	Project Score [![khammers's 42 Libft Score](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131)](https://github.com/JaeSeoKim/badge42)
-</p>
 
 <!-- <img alt="42Heilbronn Score" src="[![khammers's 42 stats](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/stats?cursusId=21&coalitionId=159)](https://github.com/JaeSeoKim/badge42)"/> -->
 
