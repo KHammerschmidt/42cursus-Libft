@@ -25,11 +25,8 @@
 ---
 
 ## 💡 About the project
-> The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation. 
-The functions will have the same prototypes and implement the same behaviors as the originals. They must comply with the way they are defined in their man. The only difference will be their names. They will begin with the ’ft_’ prefix. 
-
-
-Functions to manipulate memory and strings is very useful. But you will soon discover that manipulating lists is even more useful.
+> The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation. </br>
+> Task: The functions will have the same prototypes and implement the same behaviors as the originals. They must comply with the way they are defined in their man. The only difference will be their names. They will begin with the ’ft_’ prefix. 
 
 **Key learning points**
   - Handling different variable types and memory allocation
