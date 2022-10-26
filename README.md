@@ -2,18 +2,23 @@
   <img  width="90" src="https://user-images.githubusercontent.com/19689770/129336866-169b0dc7-ea41-47d4-b50a-d466508031af.png">
   
 	🧰 libft
+ </img>
+	<sub><sub>Project status</sub></sub></br>
+	<sub><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131" 	alt="khammers's 42 Libft Score" /></a> </sub></br>
+	
 </h1>
+</br>
 
 <p align="center">
-	<b><i>Development repo of my very own standard library</i></b><br>
-	Start date: 15/july/2021
+	<b>Development repo of my very own standard library</b><br>
+	Start date: 15/july/2021 </br>
 </p>
 
 <p align="center">
 	<img alt="Github code size in bytes" src="https://img.shields.io/github/languages/code-size/KHammerschmidt/Libft?color=light%20green&label=code%20size%20in%20bytes"/>
 	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
 	<img alt="Languages used in repo" src="https://img.shields.io/github/languages/count/KHammerschmidt/Libft?color=red&label=languages%20used%20in%20repo"/>
-	<img alt="Top used progamming language" src="https://img.shields.io/github/languages/top/KHammerschmidt/libft?color=purple"/>
+	<img alt="Top used progamming language" src="https://img.shields.io/github/languages/top/KHammerschmidt/libft?color=purple"/>	
 </p>
 
 <h3 align="center">
