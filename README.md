@@ -1,13 +1,40 @@
 <h1 align="center">
-	🧰 42cursus - libft
+  <img  width="90" src="https://user-images.githubusercontent.com/19689770/129336866-169b0dc7-ea41-47d4-b50a-d466508031af.png">
+  
+	🧰 42cursus libft
 </h1>
+
+<!-- <h1 align="center">
+	🧰 42cursus - libft
+</h1> -->
 
 <p align="center">
 	<b><i>Development repo of my very own standard library</i></b><br>
+	Start date: 15/july/2021
 </p>
 
+<p align="center">
+	<img alt="Github code size in bytes" src="https://img.shields.io/github/languages/code-size/KHammerschmidt/Libft?color=light%20green&label=code%20size%20in%20bytes"/>
+	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
+	<img alt="42Heilbronn Score" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
+</p>
+
+<h3 align="center">
+	<a href="#%EF%B8%8F-about the project">About</a>
+	<span> · </span>
+	<a href="#%EF%B8%8F-list of functions">List of functions</a>
+	<span> · </span>
+	<a href="#-usage">Usage</a>
+</h3>
+
+---
+
 ## 💡 About the project
-> The aim of this project is to re-code a library with standard functions of the C library ``` libc ``` as well as utility and bonus functions
+> The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation. 
+The functions will have the same prototypes and implement the same behaviors as the originals. They must comply with the way they are defined in their man. The only difference will be their names. They will begin with the ’ft_’ prefix. 
+
+
+Functions to manipulate memory and strings is very useful. But you will soon discover that manipulating lists is even more useful.
 
 **Key learning points**
   - Handling different variable types and memory allocation
