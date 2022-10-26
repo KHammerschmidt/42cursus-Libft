@@ -4,6 +4,8 @@
 	🧰 libft
 </h1>
 
+---
+
 <p align="center">
 	<b><i>Development repo of my very own standard library</i></b><br>
 	Start date: 15/july/2021
