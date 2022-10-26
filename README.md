@@ -17,22 +17,12 @@
 </p>
 
 <h3 align="center">
-	<a href="-about-the-project-">About the project</a>
+	<a href="-about">About</a>
 	<span> · </span>
-	<a href="-list-of-functions-">List of functions</a>
-	<span> · </span>
-	<a href="#-usage-">Usage</a>
-</h3>
-
-	<a href="#%EF%B8%8F-about-the-project">About the project</a>
-	<span> · </span>
-	<a href="#%EF%B8%8F-list-of-functions">List of functions</a>
+	<a href="-list-of-functions">List of functions</a>
 	<span> · </span>
 	<a href="#-usage">Usage</a>
-	<a href="#heading-ids">Heading IDs</a>
-#<a id ="-about-the-project-">About the project</a>
-
-	<span> · </span>
+</h3>
 
 ---
 
