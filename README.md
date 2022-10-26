@@ -12,14 +12,21 @@
 <p align="center">
 	<img alt="Github code size in bytes" src="https://img.shields.io/github/languages/code-size/KHammerschmidt/Libft?color=light%20green&label=code%20size%20in%20bytes"/>
 	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
+	<b><i>Project score</i></b> <a href="[![khammers's 42 Libft Score](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131)](https://github.com/JaeSeoKim/badge42)"> </a>
 </p>
 
 <h3 align="center">
-	<a href="#%EF%B8%8F-about">About</a>
+	<a href="#-about">About</a>
 	<span> · </span>
-	<a href="#%EF%B8%8F-functions">Functions</a>
+	<a href="#-functions">Functions</a>
 	<span> · </span>
 	<a href="#-usage">Usage</a>
+
+<!-- <a href="#%EF%B8%8F-about">About</a>
+<span> · </span>
+<a href="#%EF%B8%8F-functions">Functions</a>
+<span> · </span>
+<a href="#-usage">Usage</a> -->
 </h3>
 
 ---
