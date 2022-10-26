@@ -4,8 +4,6 @@
 	🧰 libft
 </h1>
 
----
-
 <p align="center">
 	<b><i>Development repo of my very own standard library</i></b><br>
 	Start date: 15/july/2021
@@ -14,20 +12,32 @@
 <p align="center">
 	<img alt="Github code size in bytes" src="https://img.shields.io/github/languages/code-size/KHammerschmidt/Libft?color=light%20green&label=code%20size%20in%20bytes"/>
 	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
+	<img alt="Languages used in repo" src="https://img.shields.io/github/languages/count/KHammerschmidt/Libft?color=red&label=languages%20used%20in%20repo"/>
+	<img alt="Top used progamming language" src="https://img.shields.io/github/languages/top/KHammerschmidt/libft?color=purple"/>
 </p>
 
 <h3 align="center">
+	<a href="-about-the-project-">About the project</a>
+	<span> · </span>
+	<a href="-list-of-functions-">List of functions</a>
+	<span> · </span>
+	<a href="#-usage-">Usage</a>
+</h3>
+
 	<a href="#%EF%B8%8F-about-the-project">About the project</a>
 	<span> · </span>
 	<a href="#%EF%B8%8F-list-of-functions">List of functions</a>
 	<span> · </span>
 	<a href="#-usage">Usage</a>
-</h3>
+	<a href="#heading-ids">Heading IDs</a>
+#<a id ="-about-the-project-">About the project</a>
+
+	<span> · </span>
 
 ---
 
 ## 💡 About the project
-> The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation. 
+> The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation.[^1]
 </br>
 
 **Requirements**
@@ -44,9 +54,9 @@ All functions must have the same prototypes and implement the same behaviours as
 
 </br>
 
-## Functions
+## 📄 Functions
 
-### **Libc functions**
+### ▫️**Libc functions**
 ##### Character type testing
 * [`ft_isalpha`](./src/ft_isalpha.c) - tests for alphabetic character
 * [`ft_isdigit`](./src/ft_isdigit.c) - tests for decimal-digit character
@@ -79,8 +89,9 @@ All functions must have the same prototypes and implement the same behaviours as
 * [`ft_strnstr`](./src/ft_strnstr.c) - locates a substring in a string
 * [`ft_strdup`](./src/ft_strdup.c) - saves a copy of a string
 * [`ft_atoi`](./src/ft_atoi.c) - converts a string to integer representation
+</br>
 
-### **Utility functions**
+### ▫️**Utility functions**
 * [`ft_substr`](./src/ft_substr.c) - returns a substring from string
 * [`ft_strjoin`](./src/ft_strjoin.c) - concatenates two strings
 * [`ft_strtrim`](./src/ft_strtrim.c) - trims a string in regards to a reference set
@@ -88,8 +99,9 @@ All functions must have the same prototypes and implement the same behaviours as
 * [`ft_itoa`](./src/ft_itoa.c) - allocates and returns a string of an integer
 * [`ft_strmapi`](./src/ft_strmapi.c) - creates new string resulting from successive application of function to each character 
 * [`ft_striteri`](./src/ft_striteri.c) - applies a function to each character of a string
+</br>
 
-### **Bonus functions - linked lists**
+### ▫️**Bonus functions - linked lists**
 * [`ft_lstnew`](./src/ft_lstnew.c) - allocates a new initialised list element 
 * [`ft_lstadd_front`](./src/ft_lstadd_front.c) - adds an element to the beginning of a list
 * [`ft_lstsize`](./src/ft_lstsize.c) - returns number of elements in list
@@ -98,10 +110,12 @@ All functions must have the same prototypes and implement the same behaviours as
 * [`ft_lstdelone`](./src/ft_lstdelone.c) - frees an element's content and elemente itself
 * [`ft_lstclear`](./src/ft_lstclear.c) - deletes and frees the given element and every successor
 * [`ft_lstiter`](./src/ft_lstiter.c) - iterates list and applies function to elements
+</br>
 
-### Added functions for usability in later projects
+### ▫️Added functions for usability in later projects
 * [`ft_free`](./src/ft_free.c) - Frees a strings' memory and sets it to NULL
 * [`ft_strnjoin`](./src/ft_strjoin.c) - concatenates two strings but no more than set bytes
+</br>
 
 
 ## 🛠️ **Usage**
@@ -110,4 +124,9 @@ To compile the library use the command  ``` make ``` <br/>
 To compile bonus functions use ``` make bonus ``` <br/>
  
 ![Bildschirmfoto 2022-09-26 um 23 08 11](https://user-images.githubusercontent.com/80644370/192380864-609a3046-6b92-4367-a1a2-87f31d2c0afa.png)
+
+
+---
+[^1]: This repo does not pass the initial moulinette tests of Libft at École 42 due to added functions and changes required by later projects.
+
 
