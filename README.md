@@ -1,7 +1,7 @@
 <h1 align="center">
   <img  width="90" src="https://user-images.githubusercontent.com/19689770/129336866-169b0dc7-ea41-47d4-b50a-d466508031af.png">
   
-	libft
+	🧰 libft
 </h1>
 
 <!-- <h1 align="center">
@@ -9,14 +9,16 @@
 </h1> -->
 
 <p align="center">
-	<b>>Development repo of my very own standard library</b><br>
+	<b><i>Development repo of my very own standard library</i></b><br>
 	Start date: 15/july/2021
 </p>
 
 <p align="center">
 	<img alt="Github code size in bytes" src="https://img.shields.io/github/languages/code-size/KHammerschmidt/Libft?color=light%20green&label=code%20size%20in%20bytes"/>
 	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
-	<img alt="42Heilbronn Score" src="[![khammers's 42 stats](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/stats?cursusId=21&coalitionId=159)](https://github.com/JaeSeoKim/badge42)"/>
+	"42Heilbronn Score" [![khammers's 42 stats](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/stats?cursusId=21&coalitionId=159)](https://github.com/JaeSeoKim/badge42)
+
+	<!-- <img alt="42Heilbronn Score" src="[![khammers's 42 stats](https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/stats?cursusId=21&coalitionId=159)](https://github.com/JaeSeoKim/badge42)"/> -->
 </p>
 
 <h3 align="center">
