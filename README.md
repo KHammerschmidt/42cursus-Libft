@@ -16,22 +16,24 @@
 </p>
 
 <h3 align="center">
+	<a href="#%EF%B8%8F-about-the-project">About the project</a>
+	<span> · </span>
+	<a href="#%EF%B8%8F-list-of-functions">List of functions</a>
+	<span> · </span>
+	<a href="#-usage">Usage</a>
+</h3>
+
+<!-- <h3 align="center">
 	<a href="#-about">About</a>
 	<span> · </span>
 	<a href="#-functions">Functions</a>
 	<span> · </span>
 	<a href="#-usage">Usage</a>
-
-<!-- <a href="#%EF%B8%8F-about">About</a>
-<span> · </span>
-<a href="#%EF%B8%8F-functions">Functions</a>
-<span> · </span>
-<a href="#-usage">Usage</a> -->
-</h3>
+</h3> -->
 
 ---
 
-## 💡 About
+## 💡 About the project
 > The aim of this project is to re-code my own library with standard functions of the C library ```libc``` as well as some utility functions for memory and string manipulation. The bonus functions cover list manipulation. 
 The functions will have the same prototypes and implement the same behaviors as the originals. They must comply with the way they are defined in their man. The only difference will be their names. They will begin with the ’ft_’ prefix. 
 
