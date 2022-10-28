@@ -16,6 +16,7 @@
 
 <p align="center">
 	<img alt="Github code size in bytes" src="https://img.shields.io/github/languages/code-size/KHammerschmidt/Libft?color=light%20green&label=code%20size%20in%20bytes"/>
+	<img alt="Number of lines in code" src="https://img.shields.io/tokei/lines/github/KHammerschmidt/42cursus-Libft?color=blueviolet"/>
 	<img alt="Github repo size" src="https://img.shields.io/github/repo-size/KHammerschmidt/Libft?color=turquoise"/>
 	<img alt="Languages used in repo" src="https://img.shields.io/github/languages/count/KHammerschmidt/Libft?color=red&label=languages%20used%20in%20repo"/>
 	<img alt="Top used progamming language" src="https://img.shields.io/github/languages/top/KHammerschmidt/libft?color=purple"/>	
