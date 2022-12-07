@@ -3,15 +3,15 @@
   
 	🧰 libft
  </img>
-	<sub><sub>Project status</sub></sub></br>
-	<sub><a href="https://github.com/JaeSeoKim/badge42"><img src="https://badge42.vercel.app/api/v2/cl9mxvq9700780hl4msqc8saj/project/2202131" 	alt="khammers's 42 Libft Score" /></a> </sub></br>
 	
 </h1>
 </br>
+ 
 
 <p align="center">
 	<b>Development repo of my very own standard library</b><br>
 	Start date: 15/july/2021 </br>
+	<sub> Project status: completed 122/100 points <sub></br>
 </p>
 
 <p align="center">
@@ -19,14 +19,6 @@
 	<img alt="Languages used in repo" src="https://img.shields.io/github/languages/count/KHammerschmidt/Libft?color=red&label=languages%20used%20in%20repo"/>
 	<img alt="Top used progamming language" src="https://img.shields.io/github/languages/top/KHammerschmidt/libft?color=purple"/>	
 </p>
-
-<h3 align="center">
-	<a href="-about">About</a>
-	<span> · </span>
-	<a href="-list-of-functions">List of functions</a>
-	<span> · </span>
-	<a href="#-usage">Usage</a>
-</h3>
 
 ---
 
