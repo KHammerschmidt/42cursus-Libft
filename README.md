@@ -54,9 +54,9 @@ All functions must have the same prototypes and implement the same behaviours as
 ##### Character type testing
 * [`ft_isalpha`](./src/ft_isalpha.c) - tests for alphabetic character
 * [`ft_isdigit`](./src/ft_isdigit.c) - tests for decimal-digit character
-* [`ft_isalnum`](./src/ft_isalnum) - tests for alphanumeric character
-* [`ft_isascii`](./src/ft_isascii) - tests for ASCII character
-* [`ft_isprint`](./src/ft_isprint) - tests for printable characters
+* [`ft_isalnum`](./src/ft_isalnum.c) - tests for alphanumeric character
+* [`ft_isascii`](./src/ft_isascii.c) - tests for ASCII character
+* [`ft_isprint`](./src/ft_isprint.c) - tests for printable characters
 ##### Printing utils
 * [`ft_toupper`](./src/ft_toupper.c) - converts lower case to upper case
 * [`ft_tolower`](./src/ft_tolower.c) - converts upper case to lower case
@@ -74,7 +74,7 @@ All functions must have the same prototypes and implement the same behaviours as
 * [`ft_bzero`](./src/ft_bzero.c) - writes zeroed butes to a string 
 * [`ft_calloc`](./src/ft_calloc.c) - allocates memory and fills it with zeroed 
 ##### String manipulation
-* [`ft_strlen`](./src/ft_strlen) - returns the length of a string
+* [`ft_strlen`](./src/ft_strlen.c) - returns the length of a string
 * [`ft_strlcpy`](./src/ft_strlcpy.c) - size-bound string copying
 * [`ft_strlcat`](./src/ft_strlcat.c) - appends string src to string dst 
 * [`ft_strchr`](./src/ft_strchr.c) - locates first occurence of a character in string
