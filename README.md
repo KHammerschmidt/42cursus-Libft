@@ -106,10 +106,30 @@ All functions must have the same prototypes and implement the same behaviours as
 
 ## 🛠️ **Usage**
 
-To compile the library use the command  ``` make ``` <br/>
-To compile bonus functions use ``` make bonus ``` <br/>
- 
-![Bildschirmfoto 2022-09-26 um 23 08 11](https://user-images.githubusercontent.com/80644370/192380864-609a3046-6b92-4367-a1a2-87f31d2c0afa.png)
+
+Clone the repository:
+```bash
+git clone https://github.com/KHammerschmidt/42cursus-Libft &&
+cd libft
+```
+
+
+Create the library archive:
+```bash
+make
+```
+
+
+Add bonus functions to archive:
+```bash
+make bonus
+```
+
+
+To incoporate this library within a project add this line to your Makefile, adjust directory to project respectively.
+```bash
+make -C $(LIBFT_DIR)
+```
 
 
 ---
